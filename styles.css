@@ -1,0 +1,20 @@
+#title {
+    margin-top: 3em;
+    text-align: center
+}
+
+#attendance {
+    font-size: 2em;
+}
+
+#recap {
+    font-size: 1.3em;
+}
+
+#image-note {
+    font-size: 1em
+}
+
+#command-not-found {
+    margin-top: .3em
+}

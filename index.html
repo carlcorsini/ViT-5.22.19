@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/semantic-ui@2.4.2/dist/semantic.min.css">
+</head>
+
+<body>
+
+    <div id="title" class="ui raised very padded text container segment">
+        <h1 class="ui header">ViT 5.22.19</h1>
+        <p id="attendance"><a target="_blank" href="https://forms.gle/T6qM4askuRPxYWxs9">Attendance</a></p>
+
+    </div>
+    <div id="recap" class="ui raised very padded text container segment">
+
+        <h2 class="ui header">Recap:</h2>
+        <p>
+            Went over some basic terminal commands to create a projects folder with an index.html file and open that
+            folder in VScode.
+
+        </p>
+        <h3 class="ui header"> <strong>NOTE:</strong> Try to install the git command line tools in terminal with
+            <em>$
+                xcode-select
+                --install</em> in the terminal</h3>
+
+        <p>you can find the Terminal by searching on your computer:</p>
+        <img class="ui large rounded image" src="https://i.imgur.com/vKVkf9M.png" title="source: imgur.com" />
+        <br>
+
+        <h3 class="ui header">Terminal Refresher:</h3>
+        <div class="ui ordered list">
+            <p class="item">use the terminal to create a "projects" folder - or whatever you'd like to call it - using
+                the
+                command: <p> <em>$ mkdir
+                        projects</em>
+                    <strong>(make
+                        directory)</strong></p>
+            </p>
+
+            <img class="ui large rounded image" src="https://i.imgur.com/J8L5V1j.png" title="source: imgur.com" />
+            <p id="image-note"><em>You dont need to type the "$" in terminal, this is just how terminal commands are
+                    denoted</em></p>
+            <p class="item">change your current directory to the projects folder/directory using: <p> <em>$ cd
+                        projects</em> <strong>(change
+                        directory)</strong></p>
+            </p>
+            <p class="item">created an index.html file using: <p> <em>$ touch index.html</em> <strong>(create
+                        file)</strong></p>
+            </p>
+
+            <p class="item">Attempt to open the projects folder in VScode using: <p> <em>$ code .</em>
+                    <strong>(open all in VSCode)</strong>
+                </p>
+            </p>
+            <p class="item">If using the "code ." command gives an error of
+                <img id="command-not-found" class="ui small image" src="https://i.imgur.com/Qsn6q7J.png"
+                    title="source: imgur.com" /> open
+                VSCode and
+                use
+                the fuzzy finder:
+                <p>
+                    <em>cmd
+                        + shift + p</em> and search for
+                    <strong>"shell"</strong></p>
+            </p>
+            <img class="ui huge image" src="https://i.imgur.com/m3NGPuq.png" title="source: imgur.com" /> <br>
+
+            <p class="item">click <em>"install code command to PATH"</em>
+            </p>
+
+            <p class="item">open a new terminal window, navigate back to your project directory using the <em>cd</em>
+                command
+                from step <strong>2</strong> and try the command <p> <em>$ code .</em></p>
+                <p>hopefully you opened up an index.html file in VScode!</p>
+            </p>
+
+        </div>
+    </div>
+
+    <!-- <script src="https://cdn.jsdelivr.net/npm/semantic-ui@2.4.2/dist/semantic.min.js"></script> -->
+    <link rel="stylesheet" href="styles.css">
+</body>
+
+</html>
