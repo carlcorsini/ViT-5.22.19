@@ -4,7 +4,9 @@
 }
 
 #attendance {
+    color-adjust: inherit;
     font-size: 2em;
+    text-decoration: none;
 }
 
 #recap {
